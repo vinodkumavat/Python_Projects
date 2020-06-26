@@ -12,6 +12,7 @@ while True:
             if website in content:
                 pass
             else:
+                #require admin permission i.e. 1st give permission to to excess that file
                 file.write(redirected+" "+website+"\n")
     print("Website is blocked")
     time.sleep(2)
